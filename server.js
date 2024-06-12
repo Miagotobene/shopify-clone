@@ -16,7 +16,6 @@ const SECRET_SESSION = process.env.SECRET_SESSION;
 const PORT = process.env.PORT || 3000;
 
 
-
 //---------HOME ROUTE-----------//
 app.get('/', (req, res) => {
     res.render('home', {});
